@@ -14,6 +14,6 @@ Page InstFiles
 
 # section to copy files
 Section
-	SetOutPath "$InstDir"
+	SetOutPath "$InstDir\resources"
 	File /a /r "resources\"
 SectionEnd

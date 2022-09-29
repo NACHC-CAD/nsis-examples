@@ -14,6 +14,6 @@ Outfile "002-copy-dir-example-installer.exe"
 
 # section to copy files
 Section
-	SetOutPath "C:\temp\nsis-examples\002-copy-files"
+	SetOutPath "C:\temp\nsis-examples\002-copy-files\resources"
 	File /a /r "resources\"
 SectionEnd
