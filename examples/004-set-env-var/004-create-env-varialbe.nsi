@@ -39,5 +39,9 @@ Section
 	Call WriteEnvStr
 	
 	# bar
+	Push BAR
+	Push '${BAR}'
+	Call WriteEnvStr
+	
 	
 SectionEnd
