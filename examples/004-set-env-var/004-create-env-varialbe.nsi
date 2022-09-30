@@ -1,6 +1,6 @@
 # ---
 #
-# This script edits the path system environment variable.
+# This script creates two environment variables (FOO and BAR).
 # Based on:
 # https://nsis.sourceforge.io/EnVar_plug-in 
 # 
