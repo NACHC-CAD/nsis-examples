@@ -8,9 +8,6 @@
 # 
 # ---
 
-# includes
-!include ..\includes\WriteEnvStr.nsh
-
 # definitions
 Outfile "005-envar-examples-installer.exe"
 InstallDir "C:\temp\nsis-examples\005-envar-examples-installer"
@@ -18,7 +15,7 @@ InstallDir "C:\temp\nsis-examples\005-envar-examples-installer"
 Page Directory
 Page InstFiles
 
-# section to copy files
+# section to copy files and manipulate env variable
 Section
 
     # copy files
