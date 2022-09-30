@@ -1,10 +1,8 @@
 # ---
 #
-# This script creates an environment variable.  
-# Based on https://nsis.sourceforge.io/Setting_Environment_Variables_Examples
-#
-# WriteEnvStr.nsh was downloaded from:
-# https://github.com/rasa/nsislib/blob/master/WriteEnvStr.nsh
+# This script edits the path system environment variable.
+# Based on:
+# https://nsis.sourceforge.io/EnVar_plug-in 
 # 
 # ---
 
@@ -16,7 +14,7 @@
 !include ..\includes\WriteEnvStr.nsh
 
 # definitions
-Outfile "003-choose-target-dir-example-installer.exe"
+Outfile "004-create-env-var-example-installer.exe"
 InstallDir "C:\temp\nsis-examples\003-choose-dir-example"
 
 Page Directory
