@@ -1,7 +1,9 @@
 # ---
 #
-# This script shows the basic functionality of the PrependEnvar.nsi script.  
-# This script creates an env var and then prepends a value to it.  
+# DOES NOT WORK
+#
+# This script tries to create a dir and a logical link.  
+# It does not work.  
 # 
 # ---
 
